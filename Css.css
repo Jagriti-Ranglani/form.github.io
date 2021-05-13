@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #000000;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@media (max-width: 425px){
+    body header nav
+    {
+        display: inline-block;
+        margin: auto;
+        width: 475px;
+    }
+    .navigation li{
+        margin: 2px 14px;
+    }
+}
+
+.navbar{
+    background-color: darkcyan;
+    padding: 20px 4px;
+    font-weight: bolder;
+    
+}
+.navigation{
+    padding: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+li{
+    list-style: none;
+    margin: 5px 45px;
+}
+li a{
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    padding: 1rem 0.5rem;
+}
+
+.form{
+    margin: 5rem;
+    display: inline-block;
+    color: beige;
+}
+
+.input{
+    margin-top: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+
+@media (max-width: 425px){
+    form label{
+        font-size: 18px;
+        text-align: left;
+        margin-bottom: 16px;
+        margin-left: 5px;
+    }
+    
+}
+
+label{
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+    margin-top: 14px;
+    margin-right: 8px;
+    vertical-align: top;
+}
+
+#vr{
+    position: relative;
+    width: 80px;
+    height: 34px;
+    margin-top: 35px;
+}
+
+#verify{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    top: 5px;
+    left: 2px;
+    width: 75px;
+    height: 30px;
+    position: absolute;
+    padding-top: 2px;
+}
+
+.formControl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 18rem;
+    text-align: center;
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0.5rem;
+    border: 3px solid cadetblue;
+}
+
+#sentence{
+    display: none;
+}
+
+#su{
+    display: none;
+}
+
+body footer {
+    background-color: darkcyan;
+    text-align: center;
+    font-weight: bolder;
+    height: 55px;
+}
+
+.footer{
+    padding-top: 19px;
+}

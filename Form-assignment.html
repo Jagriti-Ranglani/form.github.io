@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="Css.css">
+    <link rel="type/javascript" href="script.js">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">   
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="form">
+        <form action="" class="formControl">
+            <div id="fname" class="input">
+                <label for="firstname">First name* : </label>
+                <input id="firstname" type="text" placeholder="Enter First Name">
+            </div>
+            <div class="input" id="mname">
+                <label for="middlename">Middle name :</label>
+                <input id="middlename" type="text" placeholder="Enter Middle Name">
+            </div>
+            <div class="input" id="lname">
+                <label for="lastname">Last name* :</label>
+                <input id="lastname" type="text" placeholder="Enter Last Name">
+            </div>
+            <div class="input" id="age">
+                <label for="Age">Age* :</label>
+                <input id="Age" type="integer" placeholder="Enter Your Age">
+            </div>
+            <div class="input" id="pwd">
+                <label for="paswd">Password* :</label>
+                <input id="paswd" type="password" name="passwd" placeholder="Enter Password">
+            </div>
+            <h4 id="sentence">You are eligible to vote!</h4>
+            <button id="vr" onclick="validate()" type="submit">
+                <div id="verify">Verify</div>
+            </button>
+            <button id="su" type="submit">
+                <div id="submit">Submit</div>
+            </button>
+        </form>
+    </div>
+    
+    <footer>
+        <div class="footer">
+            Footer
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,11 +1,11 @@
 function validate() {
-    var fname = getElementById("firstname");
-    var lname = getElementById("lastname");
-    var age = getElementById("Age");
-    var passwd = getElementById("paswd");
+    var v1 = document.getElementById("firstname");
+    var lname = document.getElementById("lastname");
+    var age = document.getElementById("Age");
+    var passwd = document.getElementById("paswd");
 
-    var c;
-    if (fname == "") {
+    var c = 0;
+    if (v1 == "") {
         c = 1;
     }
     if (lname == "") {
@@ -33,7 +33,9 @@ function validate() {
             break;
 
         default:
-            alert("Please check and fill all the mandatory fields")
+            document.getElementById("vr").style.visibility= 'none';
+            document.getElementById("sentence").style.visibility = 'display';
+            document.getElementById("su").style.visibility = 'display';
             break;
     }
 }

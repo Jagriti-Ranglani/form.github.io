@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment</title>
     <link rel="stylesheet" href="Css.css">
-    <link rel="type/javascript" href="script.js">
+    <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">   
 </head>
@@ -28,7 +28,7 @@
         <form action="" class="formControl">
             <div id="fname" class="input">
                 <label for="firstname">First name* : </label>
-                <input id="firstname" type="text" placeholder="Enter First Name">
+                <input  type="text" placeholder="Enter First Name" id="firstname">
             </div>
             <div class="input" id="mname">
                 <label for="middlename">Middle name :</label>
@@ -40,20 +40,20 @@
             </div>
             <div class="input" id="age">
                 <label for="Age">Age* :</label>
-                <input id="Age" type="integer" placeholder="Enter Your Age">
+                <input id="Age" type="number" placeholder="Enter Your Age">
             </div>
             <div class="input" id="pwd">
                 <label for="paswd">Password* :</label>
                 <input id="paswd" type="password" name="passwd" placeholder="Enter Password">
             </div>
-            <h4 id="sentence">You are eligible to vote!</h4>
-            <button id="vr" onclick="validate()" type="submit">
-                <div id="verify">Verify</div>
-            </button>
-            <button id="su" type="submit">
-                <div id="submit">Submit</div>
-            </button>
         </form>
+        <h4 id="sentence">You are eligible to vote!</h4>
+        <button id="vr" onclick="validate()">
+            <div class="verify">Verify</div>
+        </button>
+        <button id="su" type="submit" onclick="submit()">
+            <div class="submit">Submit</div>
+        </button>
     </div>
     
     <footer>

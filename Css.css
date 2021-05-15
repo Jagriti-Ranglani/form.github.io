@@ -90,6 +90,24 @@ label{
     padding-top: 2px;
 }
 
+#su{
+    position: relative;
+    width: 80px;
+    height: 34px;
+    margin-top: 35px;
+}
+
+#submit{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    top: 5px;
+    left: 2px;
+    width: 75px;
+    height: 30px;
+    position: absolute;
+    padding-top: 2px;
+}
+
 .formControl{
     display: flex;
     flex-direction: column;
@@ -105,11 +123,11 @@ input{
 }
 
 #sentence{
-    display: none;
+    visibility: hidden;
 }
 
 #su{
-    display: none;
+    visibility: hidden;
 }
 
 body footer {
